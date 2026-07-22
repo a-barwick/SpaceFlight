@@ -17,14 +17,17 @@ SpaceFlight is a curated, image-led historical archive of the companies, vehicle
 
 ## Commands
 
-- `pnpm dev` — local development server
-- `pnpm format` / `pnpm format:check` — format or check formatting
-- `pnpm lint` — ESLint
-- `pnpm check` — Svelte and TypeScript checks
-- `pnpm test:unit` — Vitest
-- `pnpm test:e2e` — Playwright
-- `pnpm build` — static production build
-- `pnpm validate` — formatting, lint, checks, unit tests, and build
+- `corepack pnpm dev` — local development server
+- `corepack pnpm format` / `corepack pnpm format:check` — format or check formatting
+- `corepack pnpm lint` — ESLint
+- `corepack pnpm check` — Svelte and TypeScript checks
+- `corepack pnpm test:unit` — Vitest
+- `corepack pnpm test:e2e` — Playwright
+- `corepack pnpm build` — static production build
+- `corepack pnpm validate` — formatting, lint, checks, unit tests, and build
+- `amp orb services ensure` — start the supervised Vite server and print its portal URL in an Amp orb
+
+Fresh Amp orbs run `.agents/setup`; resumed orbs run `.agents/resume`. Use the Corepack-pinned pnpm rather than relying on an arbitrary globally installed pnpm version.
 
 ## Validation requirements
 

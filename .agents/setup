@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "[spaceflight] preparing pnpm 9.15.5"
+corepack prepare pnpm@9.15.5 --activate
+
+echo "[spaceflight] installing locked dependencies"
+corepack pnpm install --frozen-lockfile
+
+echo "[spaceflight] installing the Playwright Chromium browser"
+corepack pnpm exec playwright install chromium
+
+echo "[spaceflight] generating SvelteKit types"
+corepack pnpm exec svelte-kit sync
+
+echo "[spaceflight] orb setup complete"

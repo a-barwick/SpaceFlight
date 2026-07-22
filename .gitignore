@@ -3,6 +3,7 @@ node_modules
 build
 test-results
 playwright-report
+.amp/portals
 .DS_Store
 .env
 .env.*

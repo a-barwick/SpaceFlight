@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ ! -d node_modules ]]; then
+  echo "[spaceflight] node_modules is missing; run .agents/setup" >&2
+  exit 1
+fi
+
+echo "[spaceflight] orb dependencies ready"

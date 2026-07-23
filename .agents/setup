@@ -7,8 +7,8 @@ corepack prepare pnpm@9.15.5 --activate
 echo "[spaceflight] installing locked dependencies"
 corepack pnpm install --frozen-lockfile
 
-echo "[spaceflight] installing the Playwright Chromium browser"
-corepack pnpm exec playwright install chromium
+echo "[spaceflight] installing the Playwright Chromium browser and system dependencies"
+corepack pnpm exec playwright install --with-deps chromium
 
 echo "[spaceflight] generating SvelteKit types"
 corepack pnpm exec svelte-kit sync

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ ! -d node_modules ]]; then
-  echo "[spaceflight] node_modules is missing; run .agents/setup" >&2
+if [[ ! -x node_modules/.bin/vite ]]; then
+  echo "[spaceflight] dependencies are missing or incomplete; run .agents/setup" >&2
   exit 1
 fi
 

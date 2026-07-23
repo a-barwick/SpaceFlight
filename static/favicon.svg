@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title description">
+  <title id="title">SpaceFlight</title>
+  <desc id="description">A white geometric SF monogram, orange status rule, and white border on black.</desc>
+  <rect width="64" height="64" fill="#050505"/>
+  <path fill="#f5f7f8" d="M3 3h58v2H3zM3 59h58v2H3zM3 5h2v54H3zM59 5h2v54h-2z"/>
+  <path fill="#f5f7f8" d="M12 13h17v5H17v7h12v17H12v-5h12v-7H12V13Z"/>
+  <path fill="#f5f7f8" d="M35 13h18v5H40v8h11v5H40v11h-5V13Z"/>
+  <rect x="12" y="49" width="41" height="4" fill="#ff5a1f"/>
+</svg>

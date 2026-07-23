@@ -4,6 +4,17 @@
     name="description"
     content="A curated historical archive of the companies, vehicles, and missions shaping modern space travel."
   />
+  <link rel="canonical" href="https://starships.blog/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="SpaceFlight" />
+  <meta property="og:title" content="SpaceFlight — A modern spaceflight archive" />
+  <meta
+    property="og:description"
+    content="A curated historical archive of the companies, vehicles, and missions shaping modern space travel."
+  />
+  <meta property="og:url" content="https://starships.blog/" />
+  <meta property="og:image" content="https://starships.blog/media/flight-5-catch.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <section class="home-hero">

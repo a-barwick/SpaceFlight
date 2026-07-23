@@ -8,6 +8,14 @@
 <svelte:head>
   <title>{data.vehicle.name} — SpaceFlight</title>
   <meta name="description" content={data.vehicle.synopsis} />
+  <link rel="canonical" href="https://starships.blog/vehicles/starship/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="SpaceFlight" />
+  <meta property="og:title" content={`${data.vehicle.name} — SpaceFlight`} />
+  <meta property="og:description" content={data.vehicle.synopsis} />
+  <meta property="og:url" content="https://starships.blog/vehicles/starship/" />
+  <meta property="og:image" content="https://starships.blog/media/flight-5-catch.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <div class="context-page vehicle-page">

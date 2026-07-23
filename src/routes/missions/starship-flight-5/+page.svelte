@@ -21,6 +21,14 @@
 <svelte:head>
   <title>{data.mission.name} · {data.vehicle.name} — SpaceFlight</title>
   <meta name="description" content={data.mission.dek} />
+  <link rel="canonical" href="https://starships.blog/missions/starship-flight-5/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="SpaceFlight" />
+  <meta property="og:title" content={`${data.mission.name} · ${data.vehicle.name} — SpaceFlight`} />
+  <meta property="og:description" content={data.mission.dek} />
+  <meta property="og:url" content="https://starships.blog/missions/starship-flight-5/" />
+  <meta property="og:image" content="https://starships.blog/media/flight-5-catch.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <article class="mission-page">
